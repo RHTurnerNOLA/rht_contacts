@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @contact.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @contact.last_name %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @contact.dob %>
+</p>
+
+<p>
+  <strong>Telnum:</strong>
+  <%= @contact.telnum %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @contact.email %>
+</p>
+
+<p>
+  <strong>Fb connected:</strong>
+  <%= @contact.fb_connected %>
+</p>
+
+<p>
+  <strong>Li connected:</strong>
+  <%= @contact.li_connected %>
+</p>
+
+<%= link_to 'Edit', edit_contact_path(@contact) %> |
+<%= link_to 'Back', contacts_path %>
